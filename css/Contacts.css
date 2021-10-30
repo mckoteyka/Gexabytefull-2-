@@ -1,0 +1,523 @@
+body{
+	background-image: url(img/backgroundBlobs.svg);
+   background-position: center center;      
+background-repeat: no-repeat;      
+background-attachment: fixed;      
+background-size: cover; 
+padding-top: 32px;
+padding-left: 60px;
+padding-right: 60px;  
+padding-bottom: 32px;
+}
+
+header{
+	max-width: 1800px;
+	max-height: 104px;
+	padding: 36px 56px 36px 56px;
+	background: rgba(255, 255, 255, 0.7);
+box-shadow: 0px 0px 24px 0px rgba(126,120,120, 0.40);  
+backdrop-filter: blur(4px);
+border-radius: 24px;
+}
+.logo{
+	position: absolute;
+	display: inline;
+	max-width: 280px;
+}
+.navmenu{
+	display: inline;
+	margin-top: 40px;
+	margin-left: 320px;
+
+}
+.navmenu a{
+	display: inline;
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: 300;
+font-size: calc(14px + 4 * (100vw / 1920));
+line-height: 24px;
+text-decoration: none;
+color: #26323E;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+}
+
+.socials{
+	float: right;
+}
+.inst{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color:#fff ;
+	border-radius: 50%;
+	margin-right: 16px;
+	box-shadow: 0px 8px 16px rgba(116, 115, 115, 0.15);
+}
+
+.inst img{
+	padding: 10px;
+}
+.tg{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color:#fff ;
+	border-radius: 50%;
+	margin-right: 16px;
+	box-shadow: 0px 8px 16px rgba(116, 115, 115, 0.15);
+}
+
+.tg img{
+	padding: 10px;
+}
+.whtsp{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color:#fff ;
+	border-radius: 50%;
+	margin-right: 16px;
+	box-shadow: 0px 8px 16px rgba(116, 115, 115, 0.15);
+}
+
+.whtsp img{
+	padding: 10px;
+}
+
+.language{
+	float: right;
+	display: inline-block;
+	max-width: 122px;
+	max-height: 30px;
+	background: #ffffff;
+box-shadow: 0px 8px 16px rgba(116, 115, 115, 0.15);
+border-radius: 20px;
+padding-top: 8px;
+padding-right: 12px;
+padding-left: 10px;
+padding-bottom: 4px;
+}
+
+.globtxt{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 24px;
+color: #000000;
+padding-left: 10px;
+padding-right: 24px;
+vertical-align: text-top;
+}
+
+.circle{display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-color: #eaeaf3;
+	border-radius: 12px;
+}
+
+.circle img{
+	margin-left: 6px;
+	margin-top: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+.uptxt p{
+	display: inline-block;
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 32px;
+letter-spacing: 0.05em;
+color: #252729;
+margin-left: 24px;
+}
+.content{
+	width: auto;
+}
+.contacts{
+	padding-left: 32px;
+	padding-right: 300px;
+	padding-bottom: 56px;
+	display: inline-block;
+	background: rgba(255, 255, 255, 0.7);
+box-shadow: 0px 0px 24px rgba(126, 120, 120, 0.1);
+backdrop-filter: blur(150px);
+border-radius: 24px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: left;
+	margin-left: 263px;
+}
+.instbutton{
+	display: inline;
+}
+.instbutton:hover{
+	fill: #19b7bb;
+	stroke: #19b7bb;
+	color: #19b7bb;
+}
+.fbbutton{
+	margin-left: 16px;
+}
+.fbbutton:hover{
+	fill: #19b7bb;
+	stroke: #19b7bb;
+	color: #19b7bb;
+}
+.tgbtn{
+	padding-left: 24px;
+	padding-top: 14px;
+	padding-right: 33px;
+	padding-bottom: 12px;
+	cursor: pointer;
+	background: #FFFFFF;
+border: 1px solid #EAEAF3;
+box-sizing: border-box;
+box-shadow: 0px 8px 16px rgba(116, 115, 115, 0.15);
+border-radius: 12px;
+}
+.tgbtn p{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 24px;
+color: #252729;
+}
+.form{
+	display: inline-block;
+	background: rgba(255, 255, 255, 0.7);
+box-shadow: 0px 0px 24px rgba(126, 120, 120, 0.1);
+backdrop-filter: blur(150px);
+border-radius: 24px;
+padding: 32px;
+}
+/*input[type=text] {
+	width: 100%;
+    max-width: 360px;
+    box-sizing: border-box;
+    border: 1px solid #EAEAF3;
+    border-radius: 12px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('img/name.svg');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}*/
+.send{
+	display: inline-block;
+	background: linear-gradient(267.71deg, #1ACACE 0%, #19B7BB 100%);
+border-radius: 12px;
+padding-right:32px ;
+padding-left: 32px;
+/*padding-bottom:16px ;
+padding-top: 16px;*/
+border: none;
+}
+.send p{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* white */
+
+color: #FFFFFF;
+
+}
+.politika{
+	float: left;
+}
+.sbtn{
+	float: left;
+	margin-left: 10%;
+}
+.map{
+	float: right;
+	padding-bottom: ;
+}
+
+
+
+
+
+.fregat{
+	margin-left: 16px;
+	display: none;
+	float: right;
+width: 32px;
+height: 32px;
+margin-top: 5px;
+border-radius: 50%;
+background-color: #19b7bb;
+cursor: pointer;
+}
+.ctg1{
+	width: 12px;
+	height: 2px;
+	border-radius: 1px;
+	content: " ";
+	background-color: #fff;
+	margin-top: 11px;
+	margin-left: 10px;
+}
+.ctg2{
+	width: 12px;
+	height: 2px;
+	border-radius: 1px;
+	content: " ";
+	background-color: #fff;
+	margin-top: 2.46px;
+	margin-left: 10px;
+}
+.ctg3{
+	width: 12px;
+	height: 2px;
+	border-radius: 1px;
+	content: " ";
+	background-color: #fff;
+	margin-top: 2.49px;
+	margin-left: 10px;
+}
+
+.close{
+	display: none;
+	margin: 10px;
+}
+
+.fregat:hover .ctgs{
+	display: none;
+}
+.fregat:hover .close{
+	display: block;
+}
+
+.fregat:hover .socials{
+	display: none;
+}
+
+
+.show{
+	position: absolute;
+width: 100%;
+height: 100%;
+left: 1px;
+top: 1px;
+display: none;
+background:#fff;
+box-shadow: 0px 12px 24px rgba(126, 120, 120, 1);
+
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 16px;
+}
+.show a{
+	display: inline;
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: 300;
+font-size: calc(14px + 0 * (100vw / 1920));
+line-height: 24px;
+text-decoration: none;
+color: #26323E;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+}
+.showmenu{
+	margin-top: 36px;
+}
+.show p{
+	text-align: center;
+}
+.fregat:hover .show{
+	display: block;
+}
+
+
+
+@media screen and (max-width: 1968px){
+.deftext{
+	margin-left: 16px;
+}
+}
+
+@media screen and (max-width: 1909px){
+.deftext{
+	max-width: 1500px;
+	float: right;
+}
+}
+
+@media screen and (max-width: 1900px){
+.map iframe{
+	width: 100%
+}
+/*GATE*//*GATE*//*GATE*//*GATE*//*GATE*//*GATE*//*GATE*//*GATE*//*GATE*//*GATE*/
+
+@media screen and (max-width: 1868px){
+	.navmenu a{
+		margin: 0px 16px;
+	}
+.showmenu a{
+		margin: 0px 16px;
+	}}
+@media screen and (max-width: 1868px){
+	.navmenu a{
+		margin: 0px 16px;
+	}
+
+}
+
+/*@media screen and (max-width: 1614px){
+	.navmenu{
+		display: none;
+	}
+
+}*/
+
+/*GATE*//*GATE*//*GATE*//*GATE*//*GATE*//*GATE*//*GATE*//*GATE*//*GATE*//*GATE*/
+
+
+@media screen and (max-width: 1868px){
+	.navmenu a{
+		margin: 0px 10px;
+	}
+	.showmenu a{
+		margin: 0px 10px;
+	}
+
+}
+@media screen and (max-width: 1668px){
+	.navmenu a{
+		margin: 0px 7px;
+	}
+	.showmenu a{
+		margin: 0px 7px;
+	}
+
+}
+@media screen and (max-width: 1614px){
+	.map iframe{
+		float: none;
+		width: 1000px;
+		
+	}
+	.navmenu{
+		display: none;
+	}
+	header{
+		padding-bottom: 68px;
+	}
+	.fregat{
+	display: inline-block;
+}
+}
+@media screen and (max-width: 1600px){
+	.blocktxt{
+		padding-right: 23%;
+	}
+}
+
+@media screen and (max-width: 1400px){
+	.blocktxt{
+		padding-right: 18%;
+	}
+}
+@media screen and (max-width: 1319px){
+	.nextpage {
+		margin-left: 30%;
+		margin-top: 15px;
+	}
+	.content{
+		padding-bottom: 175px;
+	}
+	
+}
+@media screen and (max-width: 1300px){
+	.blocktxt{
+		padding-right: 15%;
+	}
+}
+@media screen and (max-width: 1200px){
+	.blocktxt{
+		padding-right: 5%;
+	}
+}
+
+@media screen and (max-width: 1142px){
+w
+}
+
+@media screen and (max-width: 1100px){
+	.blocktxt{
+		padding-right: 0%;
+	}
+	.aut,
+.kon,
+.raz{padding-right: 24px;
+}
+@media screen and (max-width: 1068px){
+	.blocktxt{
+		padding-right: 0%;
+	}
+	.centerimg img{
+		width: 232px;
+	}
+	}
+	.aut,
+.kon,
+.raz{padding-right: 0px;
+}
+
+@media screen and (max-width: 968px){
+	
+	.blocktxt{
+		max-width: 400px;
+		margin-right: 10%;
+	}
+	body{
+	padding-top: 20px;
+padding-left: 32px;
+padding-right: 32px;  
+padding-bottom: 32px;
+}
+}
+@media screen and (max-width: 868px){
+	.blocktxt{
+		max-width: 400px;
+		margin-right: 1%;
+	}
+}
+@media screen and (max-width: 868px){
+	.aut{
+		padding: 24px;
+	}
+	.Podrobnee{
+		margin-left: 50px;
+		margin-top: -150px;
+	}
+}
